@@ -1,0 +1,49 @@
+.quizcards {
+    width: 100%;
+    padding: 6rem 1rem;
+    background-color: #000;
+  }
+  
+  .card-containerQZ {
+    max-width: 1140px;
+    margin: auto;
+    
+  }
+  
+  .card-containerQZ .cardQZ {
+    border: 1px solid #eee;
+    color: #eee;
+  }
+
+  .card-containerQZ .cardQZ button {
+    text-align: center;
+    width: 40%;
+    margin: auto 1rem;;
+  }
+  
+  
+  .cardQZ {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .cardQZ h3 {
+    font-size: 1.4rem;
+    padding: 1rem;
+  }
+  
+  .cardQZ .barQZ {
+    border-bottom: 1px solid #eee;
+    width: 10%;
+    margin: 0.2rem auto 1.5rem;
+    display: block;
+  }
+  
+  @media screen and (max-width: 980px) {
+    .card-containerQZ {
+      max-width: 90%;
+      margin: auto;
+      grid-template-columns: 1fr;
+    }
+  }
+  

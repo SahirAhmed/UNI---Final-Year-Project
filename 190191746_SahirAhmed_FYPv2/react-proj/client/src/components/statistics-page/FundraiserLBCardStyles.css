@@ -1,0 +1,43 @@
+.FLBcard {
+    width: 100%;
+    padding: 6rem 1rem;
+    background-color: #000;
+  }
+  
+  .card-containerFLB {
+    max-width: 50%;
+    margin: auto;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .card-containerFLB .cardFLB {
+    border: 1px solid #eee;
+    color: #eee;
+  }
+  
+  .cardFLB {
+    margin-top: 4rem;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .cardFLB h3 {
+    font-size: 1.4rem;
+    padding: 1rem;
+  }
+
+  .cardFLB table {
+      width: 100%;
+      padding: 1rem;
+  }
+  
+  @media screen and (max-width: 980px) {
+    .card-containerFLB {
+      max-width: 90%;
+      margin: auto;
+      grid-template-columns: 1fr;
+    }
+  }
+  

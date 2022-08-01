@@ -1,0 +1,49 @@
+.CLBcard {
+    width: 100%;
+    padding: 6rem 1rem;
+    background-color: #000;
+    
+  }
+  
+  .card-containerCLB {
+    max-width: 50%;
+    margin: auto;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .card-containerCLB .cardCLB {
+    border: 1px solid #eee;
+    color: #eee;
+  }
+  
+  .cardCLB {
+    margin-top: 4rem;
+    text-align: center;
+    padding: 1rem;
+
+    height: 60vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  .cardCLB h3 {
+    font-size: 1.4rem;
+    padding: 1rem;
+  }
+
+  .cardCLB table {
+      width: 100%;
+      padding: 1rem;
+  }
+
+  
+  @media screen and (max-width: 980px) {
+    .card-containerCLB {
+      max-width: 90%;
+      margin: auto;
+      grid-template-columns: 1fr;
+    }
+  }
+  

@@ -1,0 +1,44 @@
+.statisticscards {
+    width: 100%;
+    padding: 6rem 1rem;
+    background-color: #000;
+  }
+  
+  .card-containerST {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .card-containerST .cardST {
+    border: 1px solid #eee;
+    color: #eee;
+  }
+  
+  .cardST {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .cardST h3 {
+    font-size: 1.4rem;
+    padding: 1rem;
+  }
+  
+  .cardST .barST {
+    border-bottom: 1px solid #eee;
+    width: 10%;
+    margin: 0.2rem auto 1.5rem;
+    display: block;
+  }
+  
+  @media screen and (max-width: 980px) {
+    .card-containerST {
+      max-width: 90%;
+      margin: auto;
+      grid-template-columns: 1fr;
+    }
+  }
+  

@@ -1,0 +1,93 @@
+.clpcard {
+    width: 100%;
+    padding: 6rem 1rem;
+    background-color: #000;
+  }
+  
+  .card-containerCLP {
+    max-width: 60%;
+    margin: auto;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .card-containerCLP .cardCLP {
+    border: 1px solid #eee;
+    color: #eee;
+  }
+  
+  .cardCLP {
+      margin-top: 4rem;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .cardCLP .btn:hover {
+    background-color: darkblue;
+  }
+  
+  .cardCLP h3 {
+    font-size: 1.4rem;
+    padding: 1rem;
+  }
+  
+  .cardCLP .barCLP {
+    border-bottom: 1px solid #eee;
+    width: 70%;
+    margin: 0.2rem auto 1.5rem;
+    display: block;
+  }
+
+  .cardCLP input {
+    margin-bottom: 1rem;
+    padding: 6px 14px;
+    font-size: 1rem;
+    font-family: 'Outfit', sans-serif;
+    background: rgba(255,255,255,0.8);
+    border-color: rgb(0,0,0);
+    color: #000;
+    width: 70%;
+
+  }
+
+  .cardCLP textarea {
+    margin-bottom: 1rem;
+    padding: 6px 14px;
+    font-size: 1rem;
+    font-family: 'Outfit', sans-serif;
+    background: rgba(255,255,255,0.8);
+    border-color: rgb(0,0,0);
+    color: #000;
+    width: 70%;
+    resize: vertical;
+   overflow: auto;
+  }
+  
+  
+  .brCLP {
+      content: "a";
+      display: block;
+      margin-bottom: 1rem;
+  }
+  
+  .cardCLP .btn {
+      width: 100%;
+      text-align: center;
+      background-color: blue;
+      border: solid black;
+  }
+
+  .pCLP {
+      color: white;
+      padding: 0.8rem;
+  }
+  
+  @media screen and (max-width: 980px) {
+    .card-containerCLP {
+      max-width: 90%;
+      margin: auto;
+      grid-template-columns: 1fr;
+    }
+  }
+  

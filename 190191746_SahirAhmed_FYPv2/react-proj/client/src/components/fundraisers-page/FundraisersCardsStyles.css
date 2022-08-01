@@ -1,0 +1,44 @@
+.fundraiserscards {
+    width: 100%;
+    padding: 6rem 1rem;
+    background-color: #000;
+  }
+  
+  .card-containerFU {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .card-containerFU .cardFU {
+    border: 1px solid #eee;
+    color: #eee;
+  }
+  
+  .cardFU {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .cardFU h3 {
+    font-size: 1.4rem;
+    padding: 1rem;
+  }
+  
+  .cardFU .barFU {
+    border-bottom: 1px solid #eee;
+    width: 10%;
+    margin: 0.2rem auto 1.5rem;
+    display: block;
+  }
+  
+  @media screen and (max-width: 980px) {
+    .card-containerFU {
+      max-width: 90%;
+      margin: auto;
+      grid-template-columns: 1fr;
+    }
+  }
+  

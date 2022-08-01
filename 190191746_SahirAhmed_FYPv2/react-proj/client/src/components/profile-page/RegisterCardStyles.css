@@ -1,0 +1,117 @@
+.registercard {
+    width: 100%;
+    padding: 6rem 1rem;
+    background-color: #000;
+  }
+  
+  .card-containerRC {
+    max-width: 1140px;
+    margin: auto;
+    margin-top: 2rem;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #second {
+    max-width: 1140px;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 1rem;
+    text-align: center;
+
+  }
+  
+  .card-containerRC .cardRC, #second {
+    border: 1px solid #eee;
+    color: #eee;
+  }
+  
+  .cardRC {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  
+  .cardRC h3 {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+  
+  .cardRC .barRC {
+    border-bottom: 1px solid #eee;
+    width: 10%;
+    margin: 0.2rem auto 1.5rem;
+    display: block;
+  }
+
+  .cardRC p{
+      color: #eee;
+      padding: 1rem 0;
+      font-size: 1rem;
+  }
+
+  .cardRC .btn{
+      display: block;
+      width: 75%;
+      margin: 1rem auto;
+  }
+
+  form{
+      display: flex;
+      flex-direction: column;
+      padding: 0.5rem;
+      margin: auto;
+      max-width: 500px;
+  }
+
+  form label {
+      color: black;
+      margin-bottom: 0.2rem;
+      text-align: left;
+      font-size: 0.8rem;
+  }
+
+  form input {
+    margin-bottom: 1rem;
+    padding: 6px 14px;
+    font-size: 1rem;
+    font-family: 'Outfit', sans-serif;
+    background: rgba(255,255,255,0.1);
+    border-color: rgb(0,0,0);
+    color: #000;
+  }
+
+  form select {
+    margin-bottom: 1rem;
+    padding: 6px 14px;
+    font-size: 1rem;
+    font-family: 'Outfit', sans-serif;
+    background: rgba(255,255,255,0.1);
+    border-color: rgb(0,0,0);
+    color: #000;
+    overflow-y: auto;
+  }
+
+  form .btn {
+      background-color: black;
+      color: white;
+      border: solid #f4f4f4;
+  }
+
+  form .btn:hover {
+    background-color: #0F0F0F;
+}
+  
+  @media screen and (max-width: 980px) {
+    .card-containerRC {
+      max-width: 90%;
+      margin: auto;
+      grid-template-columns: 1fr;
+    }
+
+    form {
+        max-width: 90%;
+    }
+  }
+  

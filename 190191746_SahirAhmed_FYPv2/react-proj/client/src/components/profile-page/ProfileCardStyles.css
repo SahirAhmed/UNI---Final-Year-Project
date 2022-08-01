@@ -1,0 +1,59 @@
+.profilecard {
+  width: 100%;
+  padding: 6rem 1rem;
+  background-color: #000;
+}
+
+.card-containerPC {
+  max-width: 60%;
+  margin: auto;
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.card-containerPC .cardPC {
+  border: 1px solid #eee;
+  color: #eee;
+}
+
+.cardPC {
+    margin-top: 4rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.cardPC .btn:hover {
+  background-color: #141414;
+}
+
+.cardPC h3 {
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+
+.cardPC .barPC {
+  border-bottom: 1px solid #eee;
+  width: 70%;
+  margin: 0.2rem auto 1.5rem;
+  display: block;
+}
+
+.brPC {
+    content: "a";
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.cardPC .btn {
+    width: 90%;
+}
+
+
+@media screen and (max-width: 980px) {
+  .card-containerPC {
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
+}
